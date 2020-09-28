@@ -1,0 +1,56 @@
+
+header{
+    background-color:#046DD5;
+}
+
+header h1 a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-decoration: none;
+}
+header h2 a{
+    font-family: Verdana;
+    color: white;
+    text-decoration: none;
+}
+div#signup a{
+    font-family: Verdana;
+    color: white;
+    text-decoration: none;
+}
+nav#menu ul{
+      padding: 0em;
+}
+nav#menu li{
+padding:1em;
+    list-style-type: none;
+    margin:0;
+    padding-left:80%;
+}
+nav#menu li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold ;
+}
+
+nav#menu input#hamburger{
+    display:none;
+}
+nav#menu li:nth-child(1){
+    border-top:   5px solid #E1493E;
+}
+nav#menu li:nth-child(2){
+    border-top:   5px solid #8ABA56;
+}
+nav#menu li:nth-child(3){
+    border-top:   5px solid #5B4282;
+}
+nav#menu li:nth-child(4){
+    border-top: 5px  solid #FF8932;
+}
+nav#menu li:nth-child(5){
+    border-top:   5px solid #19B6E9 ;
+}
+nav#menu li:nth-child(6){
+    border-top:  5px  solid #E84C8B;
+}
