@@ -1,10 +1,21 @@
 
 header{
     background-color:#046DD5;
+    padding: 1em;
+    margin-bottom: 0px;
 }
-
+header h1{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+header h2{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 1.1em;
+}
 header h1 a{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Verdana;
+    font-weight: bold;
     color: white;
     text-decoration: none;
 }
@@ -12,14 +23,23 @@ header h2 a{
     font-family: Verdana;
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 div#signup a{
     font-family: Verdana;
     color: white;
     text-decoration: none;
 }
+div#signup a{
+    padding-right: 1em;
+}
+div#signup a + a{
+    border-left: 2px solid white;
+    padding-left: 1em;
+}
 nav#menu ul{
       padding: 0em;
+      margin-top: 0px;
 }
 nav#menu li{
 padding:1em;
@@ -69,6 +89,10 @@ aside article p{
     color: white;
     text-decoration: none;
     padding: 1em;
+}
+article header{
+    background-color: transparent;
+    font-weight: bold;
 }
 
 section#news img{

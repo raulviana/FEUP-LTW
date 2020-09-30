@@ -1,0 +1,48 @@
+
+/* superior | direita | inferior | esquerda */
+div#signup{
+    float:right;
+    margin-top: -1.2em;
+}
+
+body{
+    display: grid;
+    background-color: #EDEFF0;
+    width: 60em;
+    padding: 0px 3px 0px 3px;
+    grid-template-columns: auto auto auto auto auto auto 20%;
+    grid-template-rows: 6em 6em auto 6em;
+}
+
+header{
+   grid-column-start: 1;
+   grid-column-end: 8;
+   grid-row-start: 1;
+   grid-row-end: 2; 
+}
+
+nav#menu{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3; 
+}
+ul{
+    display:flex;
+    justify-content: flex-start;
+    width: 10%;
+}
+
+aside#related{
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: span 500; 
+}
+
+footer{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: -2;
+    grid-row-end: -1; 
+}
