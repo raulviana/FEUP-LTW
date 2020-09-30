@@ -54,3 +54,59 @@ nav#menu li:nth-child(5){
 nav#menu li:nth-child(6){
     border-top:  5px  solid #E84C8B;
 }
+
+aside#related{
+    background-color: #2f3131;
+}
+
+aside article a{
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+}
+
+aside article p{
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+}
+
+section#news img{
+    height: auto;
+    width: 100%;
+    margin-top:-50px;
+}
+
+section#news article header a{
+    background-color:transparent;
+    text-shadow: 10px 10px 3px rgb(47, 47, 49);
+    font-size: larger;
+    width: 10em;
+    float: left;
+    position: relative;
+    top:20px;
+    left: 35px;
+}
+
+section#news article footer{
+    background-color: #F4655F;
+    padding:1em;
+    color:white;
+}
+
+section#news article .author{
+    padding:1em;
+}
+section#news article .date{
+    padding:1em;
+}
+section#news article footer a{
+    color: white;
+}
+
+footer{
+    background-color: #2f3131;
+    color: white;
+    padding:1em;
+    margin-top: 1em;
+}
