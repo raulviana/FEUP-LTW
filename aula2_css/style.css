@@ -42,10 +42,11 @@ nav#menu ul{
       margin-top: 0px;
 }
 nav#menu li{
-padding:1em;
+    padding:1em;
     list-style-type: none;
     margin:0;
-    padding-left:80%;
+    padding-left:85%;
+    background-color: white;
 }
 nav#menu li a{
     text-decoration: none;
@@ -111,10 +112,12 @@ section#news article header a{
     top:20px;
     left: 35px;
 }
-
+section#news article{
+    padding-top: 1em;
+}
 section#news article footer{
     background-color: #F4655F;
-    padding:1em;
+    padding:2em;
     color:white;
 }
 

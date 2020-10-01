@@ -1,0 +1,41 @@
+
+@media only screen and (max-width: 60em) {
+    aside#related{
+        display:none;
+    }
+    body{
+        width:60em;
+    }
+    header{
+        width: 77%;
+    }
+    nav#menu{
+        width: 109%;
+    }
+    section#news{
+        width:60em;
+    }
+    footer{
+        width:60em;
+    }
+}
+
+@media only screen and (max-width: 30em){
+    body{
+        width:30em;
+    }
+    header h2{
+        display: none;
+    }
+    nav#menu input#hamburger{
+        display:block;
+        
+    }
+  
+
+    section#news article header h1 a{
+        color: black;
+        text-shadow: none;
+        width: auto;
+    }
+}
