@@ -1,0 +1,45 @@
+/*/register*/
+section#register{
+     display:block;
+    text-align: center;
+    margin-left: 80%;
+    margin-right: auto;
+    width: auto;
+}
+section#register h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+section#register form{
+    padding: 1em;
+    width: max-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+form label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    padding-bottom: 1em;
+}
+
+form label input{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: 1px solid black;
+    width: max-content;
+}
+
+form input:nth-child(4){
+    background-color: black;
+    color:white;
+    width: fit-content;
+    height: 3em;
+    margin: 0;
+    align-self: flex-end;
+}
+
+/* singin */
+

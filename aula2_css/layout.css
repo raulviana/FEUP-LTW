@@ -12,6 +12,8 @@ body{
     padding: 0px 3px 0px 3px;
     grid-template-columns: auto auto auto auto auto auto 20%;
     grid-template-rows: 6em 6em auto 6em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header{

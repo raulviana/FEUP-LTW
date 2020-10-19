@@ -1,0 +1,25 @@
+
+body{
+    display:flex;
+    justify-content: center;
+    
+}
+section#blue{
+    order:4;
+    flex: 1 1 0;
+}
+section#orange{
+    order:3;
+    flex: 3 1 0;
+}
+section#green{
+    order:2;
+    flex: 1 1 0;
+}
+section#red{
+    order:1;
+    flex: 1 1 0;
+}
+section#yellow{
+    flex: 1 1 0;
+}
