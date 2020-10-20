@@ -1,0 +1,139 @@
+
+header{
+    background-color:#046DD5;
+    padding: 1em;
+    margin-bottom: 0px;
+}
+header h1{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+header h2{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 1.1em;
+}
+header h1 a{
+    font-family: Verdana;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+header h2 a{
+    font-family: Verdana;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+div#signup a{
+    font-family: Verdana;
+    color: white;
+    text-decoration: none;
+}
+div#signup a{
+    padding-right: 1em;
+}
+div#signup a + a{
+    border-left: 2px solid white;
+    padding-left: 1em;
+}
+nav#menu ul{
+      padding: 0em;
+      margin-top: 0px;
+}
+nav#menu li{
+    padding:1em;
+    list-style-type: none;
+    margin:0;
+    padding-left:85%;
+    background-color: white;
+}
+nav#menu li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold ;
+}
+
+nav#menu input#hamburger{
+    display:none;
+}
+nav#menu li:nth-child(1){
+    border-top:   5px solid #E1493E;
+}
+nav#menu li:nth-child(2){
+    border-top:   5px solid #8ABA56;
+}
+nav#menu li:nth-child(3){
+    border-top:   5px solid #5B4282;
+}
+nav#menu li:nth-child(4){
+    border-top: 5px  solid #FF8932;
+}
+nav#menu li:nth-child(5){
+    border-top:   5px solid #19B6E9 ;
+}
+nav#menu li:nth-child(6){
+    border-top:  5px  solid #E84C8B;
+}
+
+aside#related{
+    background-color: #2f3131;
+}
+
+aside article a{
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+}
+
+aside article p{
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+}
+article header{
+    background-color: transparent;
+    font-weight: bold;
+}
+
+section#news img{
+    height: auto;
+    width: 100%;
+    margin-top:-50px;
+}
+
+section#news article header a{
+    background-color:transparent;
+    text-shadow: 10px 10px 3px rgb(47, 47, 49);
+    font-size: larger;
+    width: 10em;
+    float: left;
+    position: relative;
+    top:1px;
+    left: 1px;
+}
+section#news article{
+    padding-top: 1em;
+}
+section#news article footer{
+    background-color: #F4655F;
+    padding:2em;
+    color:white;
+}
+
+section#news article .author{
+    padding:1em;
+}
+section#news article .date{
+    padding:1em;
+}
+section#news article footer a{
+    color: white;
+}
+
+footer{
+    background-color: #2f3131;
+    color: white;
+    padding:1em;
+    margin-top: 1em;
+}

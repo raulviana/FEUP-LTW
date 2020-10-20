@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Form</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <form action="save.php" method="get">
+        <label> Name: <input type="text" name="name">
+        </label>
+
+        <fieldset>
+            <legend>Age:</legend>
+            <label>
+                <input type="radio" name="age" value="-18">&lt;18
+            </label>
+            <label>
+                <input type="radio" name="age" value="19-35">19-35
+            </label>
+            <label>
+                <input type="radio" name="age" value="39-48">9-48
+            </label>
+            <label>
+                <input type="radio" name="age" value="+49">&gt;49
+            </label>
+        </fieldset>
+
+        <label>
+            Profession: <input type="text" name="profession">
+        </label>
+        <label>Country:
+            <select name="country">
+                <option value="portugal">Portugal</option>
+                <option value="spain">Spain</option>
+                <option value="france">France</option>
+            </select>
+        </label>
+        <fieldset>
+            <legend>Interests</legend>
+
+            <label>
+                <input type="checkbox" name="Interests" value="sport">Sport
+            </label>
+            <label>
+                <input type="checkbox" name="Interests" value="read">Read
+            </label>
+            <label>
+                <input type="checkbox" name="Interests" value="sleep">Sleep
+            </label>
+        </fieldset>
+
+        <label>Where did you find us?
+            <textarea name="how" cols="10" rows="10"></textarea>
+        </label>
+    </form>
+</body>
+
+</html>
