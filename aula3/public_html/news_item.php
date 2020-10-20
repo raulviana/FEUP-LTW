@@ -1,14 +1,10 @@
 <?php
 
-$db = new PDO('sqlite:news.db');
+include_once('database/news.php');
 
-$stmt = $db->prepare('SELECT * FROM news JOIN users USING (username) WHERE id = ?');
-$stmt->execute(array($_GET['id']));
-$article = $stmt->fetch();
 
-$stmt = $db->prepare('SELECT * FROM comments JOIN users USING (username) WHERE news_id = ?');
-$stmt->execute(array($_GET['id']));
-$comments = $stmt->fetchAll();
+$article = getArticle($_GET['id']);
+$comments = getComments($_GET['id']);
 
 // print_r($article);
 // echo "<hr>";

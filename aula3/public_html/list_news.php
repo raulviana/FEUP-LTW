@@ -1,24 +1,14 @@
 
 <?php
-    $db = new PDO('sqlite:news.db');
+   
+    include_once('database/connection.php');
+    include_once('database/news.php');
+    include_once('templates/common/header.php');
 
-    $stmt = $db->prepare('SELECT news.*, users.*, COUNT(comments.id) AS comments
-    FROM news JOIN
-         users USING (username) LEFT JOIN
-         comments ON comments.news_id = news.id
-    GROUP BY news.id, users.username
-    ORDER BY published DESC');
-    
-    $stmt->execute();
-    $articles = $stmt->fetchAll();
+  
+    $articles = getNews();
 
-    echo "<head>";
-    echo "<title>Super Legit News</title>";    
-    echo '<meta charset="UTF-8">';
-    echo '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
-    echo '<link href="style.css" rel="stylesheet">';
-    echo '<link href="layout.css" rel="stylesheet">';
-    echo "</head>";
+   
     
 
     echo "<section id=news>";
@@ -38,4 +28,6 @@
         echo "</article>";
     }
     echo "</section>";
+
+    include_once('templates/common/footer.php');
 ?>
