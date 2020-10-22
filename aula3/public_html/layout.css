@@ -50,7 +50,7 @@ section#news{
     padding-right: 1em;
 }
 
-footer{
+footer#page_footer{
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: -2;
