@@ -137,3 +137,23 @@ footer{
     padding:1em;
     margin-top: 1em;
 }
+
+.edit-fields{
+    font-family: Verdana;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0.5em;
+}
+
+
+input#edit_btn{
+    background-color: bisque;
+    font-weight: bolder;
+    border: none;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+input#edit_btn:hover{
+    background-color: #FF8932;
+}

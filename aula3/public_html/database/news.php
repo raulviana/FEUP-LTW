@@ -32,4 +32,22 @@
         return $stmt->fetchAll();
     }
 
+    function saveEditNews($id, $title, $introduction, $fulltext){
+        global $db;
+        try{ 
+            
+            $stmt = $db->prepare("UPDATE news SET title = ?, 
+                                              introduction = ?,
+                                              `fulltext` = ?
+                                        WHERE id = ?");
+       
+        $stmt->execute(array($title, $introduction, $fulltext, $id));
+    
+    }
+    catch(Exception $e){
+        var_dump($e->getMessage());
+    }
+}
+  
+
 ?>
