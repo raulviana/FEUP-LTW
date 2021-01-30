@@ -1,0 +1,751 @@
+
+:root{
+    --green-icon: rgb(49, 110, 49);
+    --nav-bar-back:#00b88c;
+    --delete-icon:rgb(221, 69, 69);
+    --edit-icon:rgb(54, 54, 173);
+    --unavailable:hsl(0, 100%, 97%);
+    --available: hsl(120, 100%, 97%);
+}
+/* 
+*{
+    border: 1px solid red;
+} */
+
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/*NavBar*/
+
+.navbar{
+   height: 50px;
+   background-color: var(--nav-bar-back);
+}
+.navbar img {
+    width: 55px;
+    height: auto;
+}
+#search-form{
+    width: 40%;
+    padding-left: 8em;
+    margin-top: -2.1em;
+    margin-bottom: 2em;
+}
+#search-bar{
+    outline:none;
+    border:none;
+    border-radius: 5%;
+}
+#search-btn{
+    outline:none;
+    border:grey;
+    border-radius: 5%;
+    width: 8%;
+    margin-left: 0.2em;
+    color:grey;
+}
+#search-btn:hover{
+    background-color: rgb(204, 200, 200);
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px; 
+}
+.navbar a:hover{
+    color: rgb(204, 200, 200);
+}
+
+.navbar input{
+    margin:none;
+    vertical-align: top;
+    margin-top: 15px;
+    margin-left: 90px;
+    width: 25%;
+    font-size: 17px;
+    background-color: #b4d3b2;
+}
+
+.log-register{
+    padding-top: 15px;
+    float: right;
+    padding-right: 1em;
+}
+#my-proposals{
+    padding-right: 0.5em;
+    border: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+#my-pets{
+    padding-right: 0.5em;
+    border: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+#wishlist{
+    padding-right: 0.5em;
+    border: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+#log-in{
+    padding-right: 0.5em;
+    border: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+#log-out{
+    padding-right: 1em;
+    padding-left: 0.5em;
+}
+#register{
+    padding-left: 0.2em;
+}
+#add-pet{
+    padding-right: 0.5em;
+    border: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+#home-link{
+    position: absolute;
+    vertical-align: top;
+    margin-top: 15px;
+    padding-left:1em;
+    padding-right: 1em;
+}
+
+#footer{
+    text-align: center;
+}
+
+/* TAGS */
+
+#tags ul {
+    margin-top: 0.5em;
+    margin-left: -2.5em;
+    text-align: center;
+}
+#tags li {
+    display: inline-block;
+    list-style-type: none;
+    text-transform: uppercase;
+    width: 12%;
+}
+
+#tags li:nth-child(1){
+    border-bottom:   3px solid #E1493E;
+}
+#tags li:nth-child(2){
+    border-bottom:   3px solid #8ABA56;
+}
+#tags li:nth-child(3){
+    border-bottom:   3px solid #5B4282;
+}
+#tags li:nth-child(4){
+    border-bottom: 3px  solid #FF8932;
+}
+#tags li:nth-child(5){
+    border-bottom:   3px solid #19B6E9 ;
+}
+#tags li:nth-child(6){
+    border-bottom:  3px  solid #E84C8B;
+}
+#tags li:nth-child(7){
+    border-bottom:   3px solid #802e0e ;
+}
+#tags li:nth-child(8){
+    border-bottom:  3px  solid #5d30c7;
+}
+#tags li:nth-child(1):hover{
+    background-color:  #f8e0de;
+}
+#tags li:nth-child(2):hover{
+    background-color:  #dfecd0;
+}
+#tags li:nth-child(3):hover{
+    background-color:  #cac6d1;
+}
+#tags li:nth-child(4):hover{
+    background-color: #f7d5bc;
+}
+#tags li:nth-child(5):hover{
+    background-color:  #c2ecfa ;
+}
+#tags li:nth-child(6):hover{
+    background-color:  #f5d4e1;
+}
+#tags li:nth-child(7):hover{
+    background-color: #ecc5b6;
+}
+#tags li:nth-child(8):hover{
+    background-color:   #d9cff3;
+}
+
+#tags ul a {
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+
+
+/* REGISTER */
+
+#register-form{
+    margin:auto;
+    width: 85%;
+    padding: 1em;
+}
+.register-card{
+    background-color: #eaf1ea;
+    border-radius: 7px 7px 7px 7px;
+    border: none;
+}
+.form-h2 {
+    padding-top: 1.5em;
+    font-size: medium;
+    text-align: center;
+}
+
+.input-box{
+    width: 40%;
+    height: 1.4em;
+    display: block;
+    background-color: #c4fac2;
+    border: none;
+    border-radius: 7px 7px 7px 7px;
+    padding: 0.3em;
+    text-align: center;
+    margin: auto;
+    margin-top: 1em;
+}
+.input-box:nth-child(1){
+    margin-top: 2em;
+}
+.input-box:focus{
+    outline:none;
+    background-color: #b1e7b0;
+}
+
+.input-btn{
+    width: 5em;
+    height: 1.5em;
+    text-align: center;
+    margin: 1em;
+    margin-top: 1.5em;
+    margin-left: 61%;
+    background-color: #7fd17c;
+    border: none;
+    border-radius: 7px 7px 7px 7px;
+
+}
+.input-btn:hover{
+    background-color:#95f592 ;
+    color: rgb(109, 107, 107)
+}
+
+.register-footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    padding: 0.5em;
+    margin:auto;
+    margin-top: 1em;
+    margin-left: 3em;
+}
+#register-footer-container{
+    padding-left: 20%;
+}
+.register-footer a{
+    color: #569953;
+    text-decoration: none;
+}
+.register-footer a:hover{
+    color: #1d361b;
+}
+#forget-password{
+    padding-right: 20%;
+}
+
+
+/* PET CARD */
+#pets-cards{
+    padding: 1em;
+    margin: auto;
+    padding-left: 3em; 
+}
+#pets-cards a{
+    text-decoration: none;
+    color: black;
+}
+.pet-card{
+    width: 20%;
+    max-width: 15em;
+    margin:1em;
+    font-size: small;
+    border-radius: 5%;
+    transition: transform 0.2s;
+    display: inline-flex;
+    align-items: center;
+  
+}
+.pet-card:hover{
+    transform: translateY(-5px);
+}
+.card-color-available{
+   background-color:var(--available);
+}
+.card-color-unavailable{
+   background-color:var(--unavailable);
+}
+
+.pet-card img{
+    border-radius: 5%;
+    margin: auto;
+    padding-left: 3%;
+    width: 95%;
+}
+.card-info{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+#pet-name-card{
+    font-weight: bold;
+    padding-left: 5%;
+}
+.pet-header{
+    margin-top: 0.5em;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.add-pet-wishlist{
+    margin-right: 5%;
+}
+.add-pet-btn{
+    color: var(--green-icon);
+}
+.pet-date{
+    text-align: center;
+}
+.general-info{
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.pet-location-icon{
+    margin-right: 0.5em;
+}
+/* PET PAGE */
+
+#pet-unavailable-info{
+    text-emphasis: bold;
+    font-size: medium;
+    text-align: center;
+}
+#pet-container{
+    margin-top: 2em;
+    margin-left: 0%;
+    margin-bottom: 1em;
+    grid-template-columns: 60% 1fr;
+    display: grid;
+    grid-template-areas: "content posts";
+}
+.proposal-list-link{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    transition: transform 0.2s;
+}
+.proposal-list-link:hover{
+    transform: translateY(-5px);
+    color:grey;
+}
+.pet-image{
+    margin:auto;
+    width: 22%;
+    padding: 3px;
+}
+#pet-box{
+    width: 95%;
+    border-radius: 5%;
+    height: auto;
+    grid-area: content;
+}
+.description{
+    padding: 0.2em;
+}
+.description::first-letter{
+    padding-left: 1em;
+}
+.pet-card-poster{
+    font-weight: bold;
+}
+.make-proposal{
+    font-size: small;
+    text-decoration: none;
+    color:black;
+    margin-left: 10%;
+    white-space: nowrap;
+}
+.make-proposal:hover{
+    color: rgb(83, 83, 85);
+}
+
+#posts-column{
+    grid-area: posts;
+}
+.pet-post{
+    background-color: rgb(202, 199, 199);
+    border-radius: 5px;
+}
+.pet-post-poster{
+    font-weight: 400;
+    font-size: small;
+    margin: 5px;
+    padding-left: 1%;
+    display:flex;
+    justify-content: space-between;
+}
+.pet-post-content{
+    font-size: smaller;
+    margin: 5px;
+}
+.pet-post-content::first-letter{
+    padding-left: 4%;
+}
+.replies-container{
+    display:flex;
+    flex-direction: column;
+    margin:0px;
+    padding:0px;
+}
+.post-reply{
+    background-color: #f5f0f0;
+    border-radius: 5px;
+    width: 90%;
+    margin-top: 1px;
+    margin-bottom: 3px;
+    margin-left: 8%;
+}
+.add-post{
+    background-color: #f3f2f2;
+    margin-top: 0.5em;
+    border-radius: 5px;
+}
+#new-post{
+ padding: 3px;
+ margin-top: 0.5em;
+ width: 95%;
+ height: 4em;
+ font-size: small;
+}
+#send-post-btn{
+    transition: transform 0.2s;
+    outline: none;
+    border:none;
+    margin-bottom: 5px;;
+}
+#send-post-btn:hover{
+    transform: translateY(-3px);
+}
+#send-post-icon{
+    color: var(--green-icon);
+}
+.post-button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+#icons-container{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.edit-post-icon{
+    color: var(--edit-icon);
+    transition: transform 0.2s;
+}
+.edit-post-icon:hover{
+    transform: translateY(-3px);
+}
+.delete-post-icon{
+    color: var(--delete-icon);
+    transition: transform 0.2s;
+}
+.delete-post-icon:hover{
+    transform: translateY(-3px);
+}
+
+
+/** ADD PET **/
+
+#age-location-container{
+    width: 55%;
+    margin:auto;
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.addpet-input-box{
+    width: 55%;
+    height: 1.4em;
+    display: block;
+    background-color: #c4fac2;
+    border: none;
+    border-radius: 7px 7px 7px 7px;
+    padding: 0.3em;
+    text-align: center;
+    margin: auto;
+    margin-top: 1em;
+}
+.addpet-input-box:focus{
+    outline:none;
+    background-color: #b1e7b0;
+}
+#pet-age{
+    background-color: #c4fac2;
+    border: none;
+    border-radius: 7px 7px 7px 7px;
+    padding: 0.3em;
+    text-align: center;
+    margin: auto;
+    margin-right: 0px;
+    width: auto;
+}
+#pet-age:focus{
+    outline:none;
+    background-color: #b1e7b0;
+}
+#pet-location{
+    background-color: #c4fac2;
+    border: none;
+    border-radius: 7px 7px 7px 7px;
+    text-align: center;
+    margin-right: 0px;
+    width:80%;
+}
+#pet-location:focus{
+    outline:none;
+    background-color: #b1e7b0;
+}
+
+#input-description{
+    height: 3em;
+}
+#add-pet-form textarea{
+    height: 5em;
+}
+#addpet-files{
+    height: 2.5em;
+}
+#tags-input, #sizes-input{
+    border:none;
+    background-color: #c4fac2;
+    outline:none;
+}
+
+
+/* WISHLIST */
+.wish-title{
+    text-align: center;
+    margin-top: 1.8em;
+    font-weight: bold;
+}
+.no-wishlists{
+    padding-left: 20%;
+    padding-top: 3em;
+    font-weight: bold;
+    font-size: medium;
+}
+.wish-frame{
+    border: solid 1px grey;
+    border-radius: 2%;
+    margin:auto;
+    margin-bottom: 1em;
+}
+.wish-name{
+    padding-left: 10%;
+    font-weight: bold;
+}
+.create-new-wishlist{
+    margin-left: 2em;
+    border:none;
+    outline: none;
+    background-color: transparent;
+    transition: transform 0.2s;
+    width: fit-content;
+}
+.create-new-wishlist:hover{
+    transform: translateY(-3px);
+}
+.add-icon{
+    color: var(--green-icon);
+}
+.wish-header{
+    display:flex;
+    justify-content: space-between;
+}
+.wish-header-name{
+    margin-left: 4%;
+    font-weight: bold;
+}
+.wish-header-add-btn{
+    margin-right: 4%;
+}
+.add-wishlist-pet{
+    border:none;
+    outline: none;
+    background-color: transparent;
+    transition: transform 0.2s;
+}
+.add-wishlist-pet:hover{
+    transform: translateY(-3px);
+}
+
+/*  MAKE PROPOSAL  */
+
+#proposal-card a{
+    text-decoration: none;
+    color: black;
+}
+#proponent-location{
+    width: 55%;
+    height: 1.4em;
+    display: block;
+    background-color: #c4fac2;
+    border: none;
+    border-radius: 7px 7px 7px 7px;
+    padding: 0.3em;
+    text-align: center;
+    margin: auto;
+    margin-top: 1em;
+    outline:none;
+}
+#proposal-content{
+    height: 4em;
+}
+#send-proposal-btn{
+    width: 8em;
+    outline: none;
+}
+
+
+/* PROPOSAL */
+.no-proposal{
+    padding-left: 20%;
+    padding-top: 3em;
+    padding-bottom: 4em;
+    font-size: large;
+    font-weight: bold;
+}
+#proposal-cards{
+    display:flex;
+}
+.proposal-frame{
+    border: solid 1px grey;
+    background-color: #eef1f1;
+    border-radius: 2%;
+    margin:auto;
+    margin-bottom: 1em;
+    width: 30%;
+}
+.proposal-frame-inactive{
+    border: solid 1px grey;
+    background-color: var(--unavailable);
+    border-radius: 2%;
+    margin:auto;
+   margin-top: 0;
+    width: 30%;
+}
+.proposal-poster{
+   font-weight: bold;
+}
+.proposal-left{
+    margin-left: 1%;
+}
+.proposal-info img{
+    padding-left: 1%;
+}
+#last-proposal-line{
+    display:flex;
+    justify-content: space-between;
+}
+.accept-container{
+    padding-right: 1%;
+}
+.accept-proposal-btn{
+    outline: none;
+    background-color: #caf8c9;
+}
+.accept-proposal-btn:hover{
+    background-color: #b1e7b0;
+    outline: none;
+    margin: none;
+}
+#input-wishlist-name{
+    width: 20%;
+    height: 1.4em;
+    background-color: #c4fac2;
+    border: none;
+    border-radius: 7px 7px 7px 7px;
+    padding: 0.3em;
+    text-align: center;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 2%;
+}
+.create-new-wishlist{
+    margin-right: 1em;
+}
+.pet-adopted{
+    font-weight: bold;
+    font-style: oblique;
+}
+
+/* SEARCH */
+.no-pets{
+    padding-left: 20%;
+    padding-top: 3em;
+    padding-bottom: 4em;
+    font-size: large;
+    font-weight: bold;
+}
+
+/* MESSAGES */
+
+.message-frame{
+    border-radius: 10%;
+    width: 20%;
+    height: 3em;
+}
+.frame-success{
+    background-color: var(--available);
+}
+.frame-error{
+    background-color: var(--unavailable);
+}
+.message{
+    padding-top: 1em;
+}
+.success-message{
+    color: var(--green-icon);
+}
+.error-message{
+    color: var(--delete-icon);
+}

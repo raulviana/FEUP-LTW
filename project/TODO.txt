@@ -1,0 +1,20 @@
+
+- add pet to wishlist bug done!!!!!
+
+- crfs done!!
+
+-salt done!
+
+-error/success messages done!!!
+
+- password salt done!!!
+
+- search don!!!
+
+- upload file: manage uploaded images done!!!
+
+- posts replies
+
+
+TO DO really: process files in proposal 
+
