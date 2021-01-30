@@ -25,16 +25,16 @@ The project goal was to develop a web site to connect founders of abandoned anim
 
 Some website pages images:
 
-[Main Page SnapShot](https://raw.githubusercontent.com/raulviana/FEUP-LTW/master/images/main.png)
+![Main Page SnapShot](https://raw.githubusercontent.com/raulviana/FEUP-LTW/master/images/main.png)
 Main Page
 
-[LogIn Page](https://raw.githubusercontent.com/raulviana/FEUP-LTW/master/images/login.png)
+![LogIn Page](https://raw.githubusercontent.com/raulviana/FEUP-LTW/master/images/login.png)
 LogIn Page
 
-[Register Page](https://raw.githubusercontent.com/raulviana/FEUP-LTW/master/images/register.png)
+![Register Page](https://raw.githubusercontent.com/raulviana/FEUP-LTW/master/images/register.png)
 Register Page
 
-[Pet Page](https://raw.githubusercontent.com/raulviana/FEUP-LTW/master/images/petpage.png)
+![Pet Page](https://raw.githubusercontent.com/raulviana/FEUP-LTW/master/images/petpage.png)
 Pet Page
 
 
