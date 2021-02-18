@@ -12,7 +12,7 @@ Download repostitory, run
 php -S localhost 8080
 '''
 
-It may be necessary to edit php.ini file to activate **gd2** and **pdo_sqlite** libraries.
+It may be necessary to edit php.ini file to activate **gd2** and **pdo_sqlite** libraries and/or install them.
 
 
 
@@ -52,8 +52,8 @@ Pet Page
  - karen_95@example.com/123 (client)
 
 ### Libraries:
- - GD library to scale and convert the uploaded images to standard internal size and type. This library was used in "templates/files/process-files.php" file. 
-
+ - **GD** library to scale and convert the uploaded images to standard internal size and type. This library was used in "templates/files/process-files.php" file. 
+ - **pdo_sqlite** to to prepare the queries and query the sqlite3 database.
 ### Features:
  - Security
      - **XSS**: yes - filtering all possible user manipulated input with Regex expressions
