@@ -1,7 +1,7 @@
 
 
 # LTW
-Repository for the Web Languages and Technologies [(**LTW**)](https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=459485)course.
+Repository for the Web Languages and Technologies [(**LTW**)](https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=459485) course.
 
 ## Tools
 PHP, Javascript, CSS, sqlite3
