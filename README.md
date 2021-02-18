@@ -52,8 +52,8 @@ Pet Page
  - karen_95@example.com/123 (client)
 
 ### Libraries:
- - **GD** library to scale and convert the uploaded images to standard internal size and type. This library was used in "templates/files/process-files.php" file. 
- - **pdo_sqlite** to to prepare the queries and query the sqlite3 database.
+ - **gd2** library to scale and convert the uploaded images to standard internal size and type. This library was used in "templates/files/process-files.php" file. 
+ - **pdo_sqlite** to prepare the queries and query the sqlite3 database.
 ### Features:
  - Security
      - **XSS**: yes - filtering all possible user manipulated input with Regex expressions
