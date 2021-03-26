@@ -7,10 +7,11 @@ Repository for the Web Languages and Technologies [(**LTW**)](https://sigarra.up
 PHP, Javascript, CSS, sqlite3
 
 ## Usage
-Download repostitory, run 
-'''
+Download repostitory, run
+
+```
 php -S localhost 8080
-'''
+```
 
 It may be necessary to edit php.ini file to activate **gd2** and **pdo_sqlite** libraries and/or install them.
 
